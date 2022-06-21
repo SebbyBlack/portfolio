@@ -1,0 +1,47 @@
+:root {
+  font-size: 24px;
+}
+body {
+  margin: auto;
+}
+
+main {
+  height: 100%;
+}
+
+#aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1b1e;
+  color: #85ffc7;
+  height: 100vh;
+}
+
+#chibiMe {
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+#skills {
+  height: 33.33vh;
+  background-color: #6279b8;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding-top: 2vh;
+}
+
+ion-icon {
+  width: 50px;
+  height: 50px;
+  color: #85ffc7;
+}
